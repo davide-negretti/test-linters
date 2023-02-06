@@ -1,0 +1,19 @@
+{
+  "semi": true,
+  "arrowParens": "always",
+  "printWidth": 120,
+  "bracketSpacing": true,
+  "trailingComma": "all",
+  "singleAttributePerLine": false,
+  "bracketSameLine": true,
+  "quoteProps": "as-needed",
+  "singleQuote": true,
+  "overrides": [
+    {
+      "files": "*.component.html",
+      "options": {
+        "parser": "angular"
+      }
+    }
+  ]
+}
