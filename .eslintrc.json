@@ -3,6 +3,12 @@
   "ignorePatterns": [
     "projects/**/*"
   ],
+  "extends": [
+    "plugin:editorconfig/all"
+  ],
+  "plugins": [
+    "editorconfig"
+  ],
   "overrides": [
     {
       "files": [
